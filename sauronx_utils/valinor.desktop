@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=Attempt Valinor Setup
+Comment=Script to attempt SSH connection to valinor using zsh, then opens a terminal window with the appropriate conda environment
+Exec=gnome-terminal -- /bin/zsh -c '/home/cole/code/sauron_utils/try_valinor.zsh; zsh'
+Icon=utilities-terminal
+Terminal=true
+Type=Application
+Categories=Network;Utility;
+
